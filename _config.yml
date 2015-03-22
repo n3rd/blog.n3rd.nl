@@ -1,7 +1,7 @@
 # Site settings
 title: N3RD
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.n3rd.nl" # the base hostname & protocol for your site
+baseurl: "/blog.n3rd.nl/" # the subpath of your site, e.g. /blog/
+url: "http://n3rd.github.io" # the base hostname & protocol for your site
 author:  
   name: Boaz  
   email: 
