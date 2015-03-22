@@ -1,12 +1,25 @@
 # Site settings
 title: N3RD
-email: 
-description: N3RD Blog Nomen est omen
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.n3rd.nl" # the base hostname & protocol for your site
-twitter_username: boazdenbesten
-github_username:  n3rd
-
+author:  
+  name: Boaz  
+  email: 
+  github: n3rd
+  twitter: boazdenbesten
+  pinterest: 
+  linkedin: boazdenbesten  
+  bio: Nomen est omen
+  email_md5: 
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: N3RD - Nomen est omen
+  
 # Build settings
 markdown: kramdown
 highlighter: pygments
