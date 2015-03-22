@@ -1,0 +1,12 @@
+# Site settings
+title: N3RD
+email: 
+description: N3RD Blog Nomen est omen
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.n3rd.nl" # the base hostname & protocol for your site
+twitter_username: boazdenbesten
+github_username:  n3rd
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
